@@ -1,0 +1,9 @@
+﻿<Window x:Class="GymApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Эра спорта" Height="350" Width="525">
+    <Grid>
+        <Button Content="Управление посетителями" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="50" Click="ManageVisitors_Click"/>
+        <Button Content="Управление услугами" HorizontalAlignment="Right" VerticalAlignment="Top" Width="200" Height="50" Click="ManageServices_Click"/>
+    </Grid>
+</Window>
